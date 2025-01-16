@@ -23,8 +23,8 @@ To run this project, you need the following dependencies:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/blip-vqa.git
-   cd blip-vqa
+   git clone https://github.com/Archita0304/DeepLearning.git
+   cd DeepLearning
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -41,16 +41,16 @@ To run this project, you need the following dependencies:
 ## Usage
 1. Place your image in the project directory or note its full path.
 
-2. Run the script:
-   ```bash
-   python main.py
-   ```
+2. Run the notebook:
+   - Open Google Colab.
+   - Upload the `DL_project.ipynb` file to Colab.
+   - Execute the cells step by step.
 
 3. Follow the prompts:
    - Enter the path to the image (e.g., `path/to/your/image.jpg`).
    - Enter a question about the image (e.g., "What is in the image?").
 
-4. The script will display the image and print the answer to your question in the terminal.
+4. The script will display the image and print the answer to your question in the output cell.
 
 ## Example
 ### Input:
@@ -64,14 +64,14 @@ To run this project, you need the following dependencies:
 ## File Structure
 ```
 .
-├── main.py           # Main script to run the VQA task
+├── DL_project.ipynb  # Jupyter Notebook for the VQA task
 ├── requirements.txt  # List of dependencies (optional)
 └── README.md         # Project documentation
 ```
 
 ## Customization
 - You can modify the `image_path` and `question` variables directly in the code for testing purposes.
-- Extend the script to handle batch processing or integrate it into a larger application.
+- Extend the notebook to handle batch processing or integrate it into a larger application.
 
 ## Limitations
 - The BLIP model might not always produce accurate answers for complex or ambiguous questions.
